@@ -1,0 +1,68 @@
+!SESSION 2024-05-01 13:12:15.259 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-05-01 13:12:16.781
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-01 13:12:17.050
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-01 13:13:01.857
+!MESSAGE Logback config file: /var/www/html/SpringBootLearning/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-05-01 13:13:02.045
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-01 13:13:02.045
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-05-01 13:13:02.285
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-01 13:13:02.285
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-01 13:17:18.966
+!MESSAGE Classpath changed for project: HelloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-01 13:17:19.654
+!MESSAGE Classpath changed for project: HelloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-01 13:17:19.658
+!MESSAGE Boot project ADDED: HelloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-01 13:17:19.658
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-01 13:17:19.676
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-01 13:17:19.687
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/home/shohrabrustam/Downloads/spring-tool-suite-4-4.22.0.RELEASE-e4.31.0-linux.gtk.x86_64/sts-4.22.0.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/home/shohrabrustam/Downloads/spring-tool-suite-4-4.22.0.RELEASE-e4.31.0-linux.gtk.x86_64/sts-4.22.0.RELEASE/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes:/home/shohrabrustam/Downloads/spring-tool-suite-4-4.22.0.RELEASE-e4.31.0-linux.gtk.x86_64/sts-4.22.0.RELEASE/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/home/shohrabrustam/Downloads/spring-tool-suite-4-4.22.0.RELEASE-e4.31.0-linux.gtk.x86_64/sts-4.22.0.RELEASE/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/var/www/html/SpringBootLearning/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1714549639686
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-01 13:17:19.687
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-01 13:17:19.689
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 22678
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-01 13:17:19.744
+!MESSAGE Classpath changed for project: HelloWorld
