@@ -40,3 +40,6 @@ What is MVC?
     Example : Class A dependent on Class B (It means class class A uses the method of class B)
 
             Basically Dependency in programming is an approach where a class use-specific functionalities of another class.
+
+    Dependency Injection (DI) : Dependency Injection (DI) is a process of creating an object for some other class and let the class
+                                directly using the dependency is called as dependency Injection.
