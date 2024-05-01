@@ -30,3 +30,13 @@ What is MVC?
 
 
     Front Controller : In Spring web MVC the dispatcher servlet class work as the frontend controller
+
+
+    Dependency Injection:
+
+            What is Dependency Injection ?
+                Dependency Injection is basically the ability of an object to supply dependencies of other object.
+
+    Example : Class A dependent on Class B (It means class class A uses the method of class B)
+
+            Basically Dependency in programming is an approach where a class use-specific functionalities of another class.
