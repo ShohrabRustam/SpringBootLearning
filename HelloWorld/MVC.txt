@@ -1,0 +1,6 @@
+Model View Controller [MVC]
+
+MVC is the most important topic to understand springboot framework, as we know that spring boot competely based om spring
+& spring is totally based on MVC.
+That is the Model View Controller
+
