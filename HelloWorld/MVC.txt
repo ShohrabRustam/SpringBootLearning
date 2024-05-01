@@ -9,3 +9,23 @@ What is MVC?
 
     spring boot is a java framework which is used to build web applications, it follows the Model View Controller design pattern
     Not just that, it also implements all the basic features of the core spring framework like dependency injections.
+
+
+
+                                            Four main Components of Model
+
+
+                    [Front Controller] >>> (Model) >>> [Controller] >>> (Model) >>> [View]
+                                                ||
+                                                ||
+                                                ||
+                    [                       Web Browser                                   ]
+
+    Model : Model basically contains the code data of the application & data can be either a single object or a group of object.
+
+    View : The view is used to represent the information in a particular format, Here we can use the JSP + J STL to create a view page.
+
+    Controller: its basically contains the business logic of an application and use the added controller annotation to mark the class
+                as controller coming to view.
+
+
