@@ -49,4 +49,6 @@ Mainly Three Class involved in injection dependency ?
     2.Service Class
     3.Injector Class
 
-
+1. Client Class : This class is basically the dependent class & is dependent on the service class.
+2. Service Class : Service class basically provide the service to the client class.
+3. Injector Class : Injector class is responsible for injecting the service class object into the client class.
