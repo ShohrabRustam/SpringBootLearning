@@ -29,3 +29,4 @@ What is MVC?
                 as controller coming to view.
 
 
+    Front Controller : In Spring web MVC the dispatcher servlet class work as the frontend controller
