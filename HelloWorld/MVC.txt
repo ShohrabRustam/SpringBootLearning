@@ -7,5 +7,5 @@ That is the Model View Controller
 What is MVC?
     MVC is basically design pattern Which is basically used to to build application.
 
-    spring boot is a java framework which is used to build web applicatins, it follows the Model View Controller design pattern
+    spring boot is a java framework which is used to build web applications, it follows the Model View Controller design pattern
     Not just that, it also implements all the basic features of the core spring framework like dependency injuctions.
