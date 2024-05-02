@@ -80,7 +80,17 @@ Mainly Three Class involved in injection dependency ?
         2.Managing our objects,
         3.Helping our application to be configurable,
         4.Managing dependencies
-        
+
+// Implementation: So now let’s understand what is IoC in Spring with an example. 
+Suppose we have one interface named Sim and it has some abstract methods calling() and data().
+
+public interface Sim {
+    void calling();
+    void data();
+}
+
+
+
 
 
 
