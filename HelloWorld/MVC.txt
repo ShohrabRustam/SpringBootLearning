@@ -64,3 +64,24 @@ Mainly Three Class involved in injection dependency ?
                         These objects are called Beans. Since the Controlling of Java objects 
                         and their lifecycle is not done by the developers, hence the name Inversion Of Control.
 
+        
+    There are 2 types of Inversion of Controller (IoC) containers:
+        1.BeanFactory
+        2.ApplicationContext 
+    
+    That means if you want to use an IoC container in spring whether we need to use a BeanFactory or ApplicationContext. 
+    
+    The BeanFactory is the most basic version of IoC containers, 
+    
+    The ApplicationContext extends the features of BeanFactory. 
+    
+    The followings are some of the main features of Spring IoC,
+        1.Creating Object for us,
+        2.Managing our objects,
+        3.Helping our application to be configurable,
+        4.Managing dependencies
+        
+
+
+
+
