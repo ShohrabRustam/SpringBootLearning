@@ -52,3 +52,15 @@ Mainly Three Class involved in injection dependency ?
 1. Client Class : This class is basically the dependent class & is dependent on the service class.
 2. Service Class : Service class basically provide the service to the client class.
 3. Injector Class : Injector class is responsible for injecting the service class object into the client class.
+
+
+                            Principle on Which Injection in Based On:
+
+    Inversion of Control: Spring IoC (Inversion of Control) Container is the core of Spring Framework. 
+                        It creates the objects, configures and assembles their dependencies, 
+                        manages their entire life cycle. The Container uses Dependency Injection(DI) to manage 
+                        the components that make up the application. It gets the information about the objects
+                        from a configuration file(XML) or Java Code or Java Annotations and Java POJO class. 
+                        These objects are called Beans. Since the Controlling of Java objects 
+                        and their lifecycle is not done by the developers, hence the name Inversion Of Control.
+
