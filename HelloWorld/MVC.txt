@@ -169,6 +169,17 @@ Bean Definition: In Spring, the objects that form the backbone of your applicati
 by the Spring IoC container are called beans. A bean is an object that is instantiated, assembled, 
 and otherwise managed by a Spring IoC container.
 
+public static void main(String[] args) {
+        // Using ApplicationContext tom implement Spring IoC
+
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
+         
+        Sim sim = applicationContext.getBean("sim", Sim.class);
+         
+        sim.calling();
+        sim.data();
+    }
+
 
 
 
