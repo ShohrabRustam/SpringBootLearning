@@ -1,7 +1,10 @@
 package com.example.demo;
 
- // Class
+import org.springframework.stereotype.Component;
+
+// Class
 // Implementing Sim interface
+@Component
 public class Airtel implements Sim {
  
     @Override public void calling()
