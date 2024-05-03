@@ -53,6 +53,12 @@ Mainly Three Class involved in injection dependency ?
 2. Service Class : Service class basically provide the service to the client class.
 3. Injector Class : Injector class is responsible for injecting the service class object into the client class.
 
+Types of Dependency Injection:
+        There are mainly there type of dependecy injectioms
+            1.Constructor Injection : Dependencies are provided through a class constructor.
+            2.Setter Injection : Injector method injects the dependency to the setter method exposed by the client.
+            3.Interface Injection: Injector uses interface to porvide the dependency to the client class.
+
 
                             Principle on Which Injection in Based On:
 
