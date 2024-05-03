@@ -64,6 +64,10 @@ Mainly Three Class involved in injection dependency ?
                         These objects are called Beans. Since the Controlling of Java objects 
                         and their lifecycle is not done by the developers, hence the name Inversion Of Control.
 
+    A class should not be configured its dependencies statically but should be configured by some other class from outside.
+
+    A class should concentrate on fulfilling its responsibilities like the flow of an application, not on creating objects.
+
         
     There are 2 types of Inversion of Controller (IoC) containers:
         1.BeanFactory
