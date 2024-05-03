@@ -181,6 +181,14 @@ public static void main(String[] args) {
     }
 
 
+ApplicationContext:  ApplicationContext belongs to the Spring framework.
+Spring IoC container is responsible for instantiating, wiring, configuring, and managing the entire life cycle
+of beans or objects. BeanFactory and ApplicationContext represent the Spring IoC Containers.
+ApplicationContext is the sub-interface of BeanFactory. It is used when we are creating an enterprise-level application
+or web application. ApplicationContext is the superset of BeanFactory,
+whatever features provided by BeanFactory are also provided by ApplicationContext.
+
+
 
 
 
